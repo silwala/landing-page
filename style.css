@@ -119,4 +119,9 @@ body{
 
 .info-img{
     border-radius: 20px;
+    outline: 3px solid #3882F6;
+}
+
+.img-cont p{
+    color: #84878c
 }
