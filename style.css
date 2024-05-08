@@ -48,6 +48,10 @@ body{
     color: #E5E7EB;
 }
 
+.link:hover{
+    color: #7aadff;
+}
+
 .hero{
     padding: 100px 0;
     display: flex;
@@ -71,16 +75,23 @@ body{
     padding: 10px 0;
 }
 
-.hero-text button{
+.hero-img{
+    height: 35vh;
+    width: auto;
+}
+
+.hero-button{
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 20px;
     padding: 10px 40px;
     border-radius: 10px;
     border: none;
+    transition: .2s;
+    transform-origin: center;
 }
 
-.hero-img{
-    height: 35vh;
-    width: auto;
+.hero-button:active{
+    background-color: #306fd3;
+    color: #e6e6e6;
 }
