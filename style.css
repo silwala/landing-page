@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div{
+    border: 1px solid red;
+}
+
+.hero, .info, .quote, .sign-up{
+    background-color: blue;
+    flex: 4 1 80px;
+}
+
+.header, .footer{
+    background-color: red;
+    flex: 1 1 20px;
+}
+
