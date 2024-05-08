@@ -87,11 +87,20 @@ body{
     padding: 10px 40px;
     border-radius: 10px;
     border: none;
-    transition: .2s;
+    transition:background-color .2s;
     transform-origin: center;
+    cursor: pointer ;
 }
 
 .hero-button:active{
     background-color: #306fd3;
     color: #e6e6e6;
+}
+
+.rand-info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 35px 0;
 }
