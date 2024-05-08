@@ -104,3 +104,19 @@ body{
     text-align: center;
     padding: 35px 0;
 }
+
+.main-img-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.img-cont{
+    flex: 0 1 170px;
+    text-align: center;
+}
+
+.info-img{
+    border-radius: 20px;
+}
