@@ -185,3 +185,9 @@ body{
     background-color: #fff;
     color: #3882F6;
 }
+
+.footer{
+    text-align: center;
+    color: #F9FAF8;
+    padding: 30px 0;
+}
