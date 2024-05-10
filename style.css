@@ -151,3 +151,37 @@ body{
     text-align: right;
     color: #1F2937;
 }
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.sign-up-container{
+    flex: 0 1 900px;
+    padding: 50px 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-text-container{
+    color: #fff;
+}
+
+.sign-up-button{
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 35px;
+    color: #fff;
+    font-size: 18px;
+    transition: background-color .3s, color .2s;
+}
+
+.sign-up-button:hover{
+    background-color: #fff;
+    color: #3882F6;
+}
